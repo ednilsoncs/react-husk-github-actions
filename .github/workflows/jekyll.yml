@@ -40,6 +40,9 @@ jobs:
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v1
     
+    - name: Build
+      run: npm run build
+    
     - name: Install Surge
       run: npm install -g surge
       
